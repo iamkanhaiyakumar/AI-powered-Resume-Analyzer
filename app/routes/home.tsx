@@ -45,7 +45,7 @@ export default function Home() {
     <section className="main-section">
       <div className="page-heading py-16">
         <h1>Welcome to Resumind</h1>
-        <p className="text-gray-600">Your AI-powered resume assistant</p>
+        <p className="text-gray-600 font-bold">Your AI-powered resume assistant</p>
         <h2>Track Your Applications & Resume Ratings</h2>
         {!loadingResumes && resumes?.length === 0 ? (
             <h2>No resumes found. Upload your first resume to get feedback.</h2>
